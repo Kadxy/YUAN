@@ -48,11 +48,11 @@ export default (props: Props) => {
             <IconEnv />
             <span>系统角色:</span>
           </div>
-          <p class="my-2 leading-normal text-sm op-50 dark:op-60">Gently instruct the assistant and set the behavior of the assistant.</p>
+          <p class="my-2 leading-normal text-sm op-50 dark:op-60">自定义助手角色</p>
           <div>
             <textarea
               ref={systemInputRef!}
-              placeholder="You are a helpful assistant, answer as concisely as possible...."
+              placeholder="请你充当程序员，帮我翻译、改进代码...."
               autocomplete="off"
               autofocus
               rows="3"
